@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ## How to run
 
-### Start the `Asmeta@run.time` server on port 8080
+### Start the AsmetaS&#8203;@run.time server on port 8080
 In order to run the server it is necessary to have Java JRE 17 or higher and Python installed on your machine. 
 
 To run the server, move to the `asmeta server` folder and run:
