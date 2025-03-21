@@ -1,0 +1,19 @@
+2025-03-21 15:26:54,904 - root - INFO - Logging has been configured.
+2025-03-21 15:26:54,935 - __main__ - INFO - Loaded config.json - Starting execution with id 4049fbf5-d577-4fd3-8706-56a3d7b0aecb
+2025-03-21 15:26:54,935 - configuration_manager - INFO - Configuration: 
+2025-03-21 15:26:54,936 - configuration_manager - INFO - * Runtime ASM model: SafetyEnforcerModel.asm
+2025-03-21 15:26:54,937 - model_uploader - INFO - Enforcer initialized with domain: http://localhost:8080/
+2025-03-21 15:26:54,938 - model_uploader - INFO - Runtime model: SafetyEnforcerModel.asm
+2025-03-21 15:26:54,938 - model_uploader - INFO - 
+2025-03-21 15:26:55,019 - model_uploader - INFO - Uploaded file: ../../resources/models\SafetyEnforcerModel.asm
+2025-03-21 15:26:55,055 - __main__ - INFO - --Starting new test run--
+2025-03-21 15:26:55,145 - enforcer - INFO - Execution started with ID: 2
+2025-03-21 15:26:55,146 - __main__ - INFO - --Executing new step--
+2025-03-21 15:27:00,837 - enforcer - INFO - ASM step performed for ID 2 with delay 154.95 ms
+2025-03-21 15:27:00,837 - enforcer - ERROR - ASM step execution failed: name 'system_out_action' is not defined
+2025-03-21 15:27:00,838 - __main__ - ERROR - Failed to connect to the server - Executing the test runs WITHOUT the model
+2025-03-21 15:27:00,839 - __main__ - INFO - --Starting new test run--
+2025-03-21 15:27:00,839 - __main__ - INFO - --Executing new step--
+2025-03-21 15:27:38,610 - __main__ - INFO - Test run completed in 37770.34ms:
+2025-03-21 15:27:38,611 - __main__ - INFO - * Effective Duration: 0 simulation steps
+2025-03-21 15:27:38,612 - __main__ - INFO - 

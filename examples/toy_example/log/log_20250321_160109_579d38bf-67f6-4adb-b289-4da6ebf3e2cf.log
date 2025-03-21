@@ -1,0 +1,42 @@
+2025-03-21 16:01:09,532 - root - INFO - Logging has been configured.
+2025-03-21 16:01:09,562 - __main__ - INFO - Loaded config.json - Starting execution with id 579d38bf-67f6-4adb-b289-4da6ebf3e2cf
+2025-03-21 16:01:09,563 - configuration_manager - INFO - Configuration: 
+2025-03-21 16:01:09,563 - configuration_manager - INFO - * Runtime ASM model: SafetyEnforcerModel.asm
+2025-03-21 16:01:09,564 - model_uploader - INFO - Enforcer initialized with domain: http://localhost:8080/
+2025-03-21 16:01:09,564 - model_uploader - INFO - Runtime model: SafetyEnforcerModel.asm
+2025-03-21 16:01:09,565 - model_uploader - INFO - 
+2025-03-21 16:01:09,639 - model_uploader - INFO - Uploaded file: ../../resources/models\SafetyEnforcerModel.asm
+2025-03-21 16:01:09,671 - __main__ - INFO - --Starting new test run--
+2025-03-21 16:01:09,751 - enforcer - INFO - Execution started with ID: 2
+2025-03-21 16:01:09,752 - __main__ - INFO - --Executing new step--
+2025-03-21 16:01:16,078 - enforcer - INFO - ASM step performed for ID 2 with delay 138.21 ms
+2025-03-21 16:01:16,079 - enforcer - INFO - Enforcer applied - changing action
+2025-03-21 16:01:16,080 - enforcer - INFO - System Output: IDLE
+2025-03-21 16:01:16,081 - enforcer - INFO - After Safety Enforcement: LANE_RIGHT
+2025-03-21 16:01:25,278 - __main__ - INFO - --Executing new step--
+2025-03-21 16:01:27,893 - enforcer - INFO - ASM step performed for ID 2 with delay 131.71 ms
+2025-03-21 16:01:27,894 - enforcer - ERROR - The Enforcer returned no outAction but should always return something
+2025-03-21 16:01:27,895 - enforcer - INFO - System Output: leksjrlwe
+2025-03-21 16:01:27,896 - __main__ - INFO - Action: leksjrlwe
+2025-03-21 16:01:31,414 - __main__ - INFO - --Executing new step--
+2025-03-21 16:01:35,990 - enforcer - INFO - ASM step performed for ID 2 with delay 121.11 ms
+2025-03-21 16:01:35,991 - enforcer - INFO - Enforcer applied - changing action
+2025-03-21 16:01:35,992 - enforcer - INFO - System Output: IDLE
+2025-03-21 16:01:35,992 - enforcer - INFO - After Safety Enforcement: LANE_RIGHT
+2025-03-21 16:01:39,691 - __main__ - INFO - --Executing new step--
+2025-03-21 16:01:44,762 - enforcer - INFO - ASM step performed for ID 2 with delay 125.66 ms
+2025-03-21 16:01:44,762 - enforcer - INFO - Enforcer not applied - keeping input action
+2025-03-21 16:01:44,763 - enforcer - INFO - System Output: SLOWER
+2025-03-21 16:01:44,764 - __main__ - INFO - Action: SLOWER
+2025-03-21 16:01:49,374 - enforcer - INFO - Execution stopped for ID: 2
+2025-03-21 16:01:49,375 - __main__ - INFO - Enforcer delays:
+2025-03-21 16:01:49,376 - __main__ - INFO - * Start delay: 79.89ms
+2025-03-21 16:01:49,376 - __main__ - INFO - * Total sanitisation delay: 527.20ms (max 140.92ms)
+2025-03-21 16:01:49,377 - __main__ - INFO - * Stop delay: 15.86ms
+2025-03-21 16:01:49,377 - __main__ - INFO - Number of enforcer interventions: 2 (out of 4)
+2025-03-21 16:01:49,378 - __main__ - INFO - Test run completed in 39706.99ms:
+2025-03-21 16:01:49,379 - __main__ - INFO - * Effective Duration: 4 simulation steps
+2025-03-21 16:01:49,380 - __main__ - INFO - 
+2025-03-21 16:01:49,418 - model_uploader - INFO - Model deleted: SafetyEnforcerModel.asm
+2025-03-21 16:01:49,476 - __main__ - INFO - Upload model delay: 105.43ms
+2025-03-21 16:01:49,476 - __main__ - INFO - Delete model delay: 95.22ms

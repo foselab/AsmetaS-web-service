@@ -1,0 +1,21 @@
+2025-03-20 23:09:21,025 - root - INFO - Logging has been configured.
+2025-03-20 23:09:21,062 - __main__ - INFO - Loaded config.json - Starting execution with id 12df1b73-a516-4cbf-b5f1-5f3089541882
+2025-03-20 23:09:21,062 - configuration_manager - INFO - Configuration: 
+2025-03-20 23:09:21,062 - configuration_manager - INFO - * Runtime ASM model: SafetyEnforcerModel.asm
+2025-03-20 23:09:21,062 - model_uploader - INFO - Enforcer initialized with domain: http://localhost:8080/
+2025-03-20 23:09:21,062 - model_uploader - INFO - Runtime model: SafetyEnforcerModel.asm
+2025-03-20 23:09:21,062 - model_uploader - INFO - 
+2025-03-20 23:09:21,141 - model_uploader - INFO - Uploaded file: ../../resources/models\SafetyEnforcerModel.asm
+2025-03-20 23:09:21,173 - __main__ - INFO - --Starting new test run--
+2025-03-20 23:09:21,270 - enforcer - INFO - Execution started with ID: 2
+2025-03-20 23:09:21,272 - __main__ - INFO - --Executing new step--
+2025-03-20 23:09:28,054 - enforcer - INFO - ASM step performed for ID 2 with delay 150.73 ms
+2025-03-20 23:09:28,054 - enforcer - INFO - Enforcer applied - changing action
+2025-03-20 23:09:28,055 - enforcer - INFO - System Output: FASTER
+2025-03-20 23:09:28,056 - enforcer - INFO - After Safety Enforcement: LANE_RIGHT
+2025-03-20 23:09:31,583 - __main__ - ERROR - Failed to connect to the server - Executing the test runs WITHOUT the model
+2025-03-20 23:09:31,583 - __main__ - INFO - --Starting new test run--
+2025-03-20 23:09:31,584 - __main__ - INFO - --Executing new step--
+2025-03-20 23:09:38,604 - __main__ - INFO - --Executing new step--
+2025-03-20 23:09:49,865 - __main__ - INFO - --Executing new step--
+2025-03-20 23:10:29,503 - __main__ - INFO - --Executing new step--

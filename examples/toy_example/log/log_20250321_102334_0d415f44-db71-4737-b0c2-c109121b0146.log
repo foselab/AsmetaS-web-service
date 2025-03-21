@@ -1,0 +1,16 @@
+2025-03-21 10:23:34,325 - root - INFO - Logging has been configured.
+2025-03-21 10:23:34,355 - __main__ - INFO - Loaded config.json - Starting execution with id 0d415f44-db71-4737-b0c2-c109121b0146
+2025-03-21 10:23:34,356 - configuration_manager - INFO - Configuration: 
+2025-03-21 10:23:34,357 - configuration_manager - INFO - * Runtime ASM model: SafetyEnforcerModel.asm
+2025-03-21 10:23:34,358 - model_uploader - INFO - Enforcer initialized with domain: http://localhost:8080/
+2025-03-21 10:23:34,359 - model_uploader - INFO - Runtime model: SafetyEnforcerModel.asm
+2025-03-21 10:23:34,360 - model_uploader - INFO - 
+2025-03-21 10:23:34,661 - model_uploader - INFO - Uploaded file: ../../resources/models\SafetyEnforcerModel.asm
+2025-03-21 10:23:34,753 - __main__ - INFO - --Starting new test run--
+2025-03-21 10:23:35,332 - enforcer - INFO - Execution started with ID: 1
+2025-03-21 10:23:35,333 - __main__ - INFO - --Executing new step--
+2025-03-21 10:23:41,267 - enforcer - ERROR - HTTP Request failed: 500 Server Error:  for url: http://localhost:8080/step-single-input
+2025-03-21 10:23:41,268 - enforcer - ERROR - ASM step execution failed: 500 Server Error:  for url: http://localhost:8080/step-single-input
+2025-03-21 10:23:41,269 - __main__ - ERROR - Failed to connect to the server - Executing the test runs WITHOUT the model
+2025-03-21 10:23:41,269 - __main__ - INFO - --Starting new test run--
+2025-03-21 10:23:41,270 - __main__ - INFO - --Executing new step--

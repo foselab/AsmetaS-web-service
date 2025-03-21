@@ -1,0 +1,37 @@
+2025-03-21 15:48:12,699 - root - INFO - Logging has been configured.
+2025-03-21 15:48:12,730 - __main__ - INFO - Loaded config.json - Starting execution with id d7e662a0-93be-4471-895a-7cdf0a519d68
+2025-03-21 15:48:12,731 - configuration_manager - INFO - Configuration: 
+2025-03-21 15:48:12,732 - configuration_manager - INFO - * Runtime ASM model: SafetyEnforcerModel.asm
+2025-03-21 15:48:12,732 - model_uploader - INFO - Enforcer initialized with domain: http://localhost:8080/
+2025-03-21 15:48:12,733 - model_uploader - INFO - Runtime model: SafetyEnforcerModel.asm
+2025-03-21 15:48:12,734 - model_uploader - INFO - 
+2025-03-21 15:48:12,856 - model_uploader - INFO - Uploaded file: ../../resources/models\SafetyEnforcerModel.asm
+2025-03-21 15:48:12,872 - __main__ - INFO - --Starting new test run--
+2025-03-21 15:48:13,624 - enforcer - INFO - Execution started with ID: 1
+2025-03-21 15:48:13,625 - __main__ - INFO - --Executing new step--
+2025-03-21 15:48:21,767 - enforcer - INFO - ASM step performed for ID 1 with delay 194.38 ms
+2025-03-21 15:48:21,768 - enforcer - INFO - Enforcer not applied - keeping input action
+2025-03-21 15:48:21,769 - enforcer - INFO - System Output: FASTER
+2025-03-21 15:48:21,770 - __main__ - INFO - Action: FASTER
+2025-03-21 15:48:44,262 - __main__ - INFO - --Executing new step--
+2025-03-21 15:48:54,082 - enforcer - INFO - ASM step performed for ID 1 with delay 138.46 ms
+2025-03-21 15:48:54,082 - enforcer - INFO - Enforcer applied - changing action
+2025-03-21 15:48:54,083 - enforcer - INFO - System Output: SLOWER
+2025-03-21 15:48:54,083 - enforcer - INFO - After Safety Enforcement: LANE_RIGHT
+2025-03-21 15:49:05,705 - __main__ - INFO - --Executing new step--
+2025-03-21 15:49:11,429 - enforcer - INFO - ASM step performed for ID 1 with delay 136.71 ms
+2025-03-21 15:49:11,429 - enforcer - INFO - Enforcer not applied - keeping input action
+2025-03-21 15:49:11,430 - enforcer - INFO - System Output: IDLE
+2025-03-21 15:49:11,432 - __main__ - INFO - Action: IDLE
+2025-03-21 15:49:16,619 - enforcer - INFO - Execution stopped for ID: 1
+2025-03-21 15:49:16,621 - __main__ - INFO - Enforcer delays:
+2025-03-21 15:49:16,621 - __main__ - INFO - * Start delay: 742.12ms
+2025-03-21 15:49:16,622 - __main__ - INFO - * Total sanitisation delay: 476.90ms (max 196.82ms)
+2025-03-21 15:49:16,622 - __main__ - INFO - * Stop delay: 16.02ms
+2025-03-21 15:49:16,623 - __main__ - INFO - Number of enforcer interventions: 1 (out of 3)
+2025-03-21 15:49:16,624 - __main__ - INFO - Test run completed in 63740.51ms:
+2025-03-21 15:49:16,624 - __main__ - INFO - * Effective Duration: 3 simulation steps
+2025-03-21 15:49:16,625 - __main__ - INFO - 
+2025-03-21 15:49:16,658 - model_uploader - INFO - Model deleted: SafetyEnforcerModel.asm
+2025-03-21 15:49:16,742 - __main__ - INFO - Upload model delay: 147.92ms
+2025-03-21 15:49:16,743 - __main__ - INFO - Delete model delay: 116.30ms

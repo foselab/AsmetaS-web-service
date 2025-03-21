@@ -1,0 +1,12 @@
+2025-03-21 22:11:46,966 - root - INFO - Logging has been configured.
+2025-03-21 22:11:47,053 - __main__ - INFO - Loaded config.json - Starting execution with id 3920afbf-6bdb-42c6-ab2b-d07ab3b704d0
+2025-03-21 22:11:47,053 - configuration_manager - INFO - Configuration: 
+2025-03-21 22:11:47,053 - configuration_manager - INFO - * Runtime ASM model: SafetyEnforcerModel.asm
+2025-03-21 22:11:47,057 - model_uploader - INFO - Model engine initialized with domain: http://localhost:8080/
+2025-03-21 22:11:47,059 - model_uploader - INFO - Runtime model: SafetyEnforcerModel.asm
+2025-03-21 22:11:47,059 - model_uploader - INFO - 
+2025-03-21 22:11:51,236 - model_uploader - ERROR - HTTP Request failed: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /upload-model (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019E5ED44CD0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-03-21 22:11:51,238 - model_uploader - ERROR - Failed to upload model or library: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /upload-model (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019E5ED44CD0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-03-21 22:11:51,244 - __main__ - ERROR - Failed to connect to the server - Executing the test runs WITHOUT the model
+2025-03-21 22:11:51,246 - __main__ - INFO - --Starting new test run--
+2025-03-21 22:11:51,249 - __main__ - INFO - --Executing new step--

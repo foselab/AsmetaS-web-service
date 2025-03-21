@@ -1,0 +1,27 @@
+2025-03-20 23:18:52,849 - root - INFO - Logging has been configured.
+2025-03-20 23:18:52,881 - __main__ - INFO - Loaded config.json - Starting execution with id 2db74740-e7de-4709-9b47-787fe14a93dc
+2025-03-20 23:18:52,881 - configuration_manager - INFO - Configuration: 
+2025-03-20 23:18:52,881 - configuration_manager - INFO - * Runtime ASM model: SafetyEnforcerModel.asm
+2025-03-20 23:18:52,881 - model_uploader - INFO - Enforcer initialized with domain: http://localhost:8080/
+2025-03-20 23:18:52,881 - model_uploader - INFO - Runtime model: SafetyEnforcerModel.asm
+2025-03-20 23:18:52,881 - model_uploader - INFO - 
+2025-03-20 23:18:52,976 - model_uploader - INFO - Uploaded file: ../../resources/models\SafetyEnforcerModel.asm
+2025-03-20 23:18:52,992 - __main__ - INFO - --Starting new test run--
+2025-03-20 23:18:53,071 - enforcer - INFO - Execution started with ID: 4
+2025-03-20 23:18:53,071 - __main__ - INFO - --Executing new step--
+2025-03-20 23:19:03,823 - enforcer - INFO - ASM step performed for ID 4 with delay 142.44 ms
+2025-03-20 23:19:03,825 - enforcer - INFO - Enforcer applied - changing action
+2025-03-20 23:19:03,826 - enforcer - INFO - System Output: FASTER
+2025-03-20 23:19:03,827 - enforcer - INFO - After Safety Enforcement: LANE_RIGHT
+2025-03-20 23:19:09,134 - enforcer - INFO - Execution stopped for ID: 4
+2025-03-20 23:19:09,139 - __main__ - INFO - Enforcer delays:
+2025-03-20 23:19:09,139 - __main__ - INFO - * Start delay: 72.06ms
+2025-03-20 23:19:09,139 - __main__ - INFO - * Total sanitisation delay: 147.18ms (max 147.18ms)
+2025-03-20 23:19:09,141 - __main__ - INFO - * Stop delay: 25.79ms
+2025-03-20 23:19:09,141 - __main__ - INFO - Number of enforcer interventions: 1 (out of 1)
+2025-03-20 23:19:09,141 - __main__ - INFO - Test run completed in 16138.92ms:
+2025-03-20 23:19:09,141 - __main__ - INFO - * Effective Duration: 1 simulation steps
+2025-03-20 23:19:09,143 - __main__ - INFO - 
+2025-03-20 23:19:09,166 - model_uploader - INFO - Model deleted: SafetyEnforcerModel.asm
+2025-03-20 23:19:09,238 - __main__ - INFO - Upload model delay: 108.87ms
+2025-03-20 23:19:09,238 - __main__ - INFO - Delete model delay: 95.19ms

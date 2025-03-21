@@ -1,0 +1,14 @@
+2025-03-21 15:22:12,342 - root - INFO - Logging has been configured.
+2025-03-21 15:22:12,372 - __main__ - INFO - Loaded config.json - Starting execution with id 1074a6dd-6657-4f83-84b9-3bb4c705fe2d
+2025-03-21 15:22:12,373 - configuration_manager - INFO - Configuration: 
+2025-03-21 15:22:12,373 - configuration_manager - INFO - * Runtime ASM model: SafetyEnforcerModel.asm
+2025-03-21 15:22:12,374 - model_uploader - INFO - Enforcer initialized with domain: http://localhost:8080/
+2025-03-21 15:22:12,375 - model_uploader - INFO - Runtime model: SafetyEnforcerModel.asm
+2025-03-21 15:22:12,375 - model_uploader - INFO - 
+2025-03-21 15:22:12,496 - model_uploader - INFO - Uploaded file: ../../resources/models\SafetyEnforcerModel.asm
+2025-03-21 15:22:12,533 - __main__ - INFO - --Starting new test run--
+2025-03-21 15:22:13,245 - enforcer - INFO - Execution started with ID: 1
+2025-03-21 15:22:13,245 - __main__ - INFO - --Executing new step--
+2025-03-21 15:22:21,926 - __main__ - ERROR - Failed to connect to the server - Executing the test runs WITHOUT the model
+2025-03-21 15:22:21,927 - __main__ - INFO - --Starting new test run--
+2025-03-21 15:22:21,928 - __main__ - INFO - --Executing new step--
