@@ -1,6 +1,6 @@
 # AsmetaS-web-service: online use of the Abstract State Machines (ASM) simulator AsmetaS&#8203;@run.time via a REST/JSON API
 
-AsmetaS@run.time is a model engine for the runtime simulation of Abstract State Machine (ASM) models.
+ `AsmetaS@run.time` is a model engine for the runtime simulation of Abstract State Machine (ASM) models.
 It is part of the formal modelling and analysis toolset ASMETA: https://asmeta.github.io/index.html
 This repository contains experimental code with examples on how to use the simulator AsmetaS@run.time as a standalone simulation server.
 
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ## How to run
 
 ### Start the `Asmeta@run.time` server on port 8080
-In order to run the server it is necessary to have Java JRE 17 or higher and Python installed on your machine. \
+In order to run the server it is necessary to have Java JRE 17 or higher and Python installed on your machine. 
 
 To run the server, move to the `asmeta server` folder and run:
 
