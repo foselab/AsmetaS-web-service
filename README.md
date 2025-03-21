@@ -2,7 +2,7 @@
 
  `AsmetaS@run.time` is a model engine for the runtime simulation of Abstract State Machine (ASM) models.
 It is part of the formal modelling and analysis toolset ASMETA: https://asmeta.github.io/index.html
-This repository contains experimental code with examples on how to use the simulator AsmetaS@run.time as a standalone simulation server.
+This repository contains experimental code with examples on how to use the simulator  `AsmetaS@run.time`  as a standalone simulation server.
 
 ## Initial setup
 
