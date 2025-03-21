@@ -1,4 +1,4 @@
-# AsmetaS-web-service for online use of the Abstract State Machines (ASM) simulator AsmetaS&#8203;@run.time via a REST/JSON API
+# AsmetaS-web-service: online use of the Abstract State Machines (ASM) simulator AsmetaS&#8203;@run.time via a REST/JSON API
 
 AsmetaS@run.time is a model engine for the runtime simulation of Abstract State Machine (ASM) models.
 It is part of the formal modelling and analysis toolset ASMETA: https://asmeta.github.io/index.html
