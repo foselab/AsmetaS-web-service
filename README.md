@@ -48,7 +48,7 @@ The following is a brief description of each field in the configuration file:
 
 **NOTE**
 * **the `"ip"` nested-field is optional and if it is not set the ip is dynamically determined (especially if the script is running in Windosw Subsystem for Linux WSL, otherwise, it is set to `localhost`).**
-For example, assuming a local server is running the `AsmetaS@run.time` simulator on `localhost:8080`, the following configuration file sets up a simulation scenario with the `SafetyEnforcerModel.asm` as runtime model:
+For example, assuming a local server is running the AsmetaS&#8203;@run.time simulator on `localhost:8080`, the following configuration file sets up a simulation scenario with the `SafetyEnforcerModel.asm` as runtime model:
 
 ```json
 {
