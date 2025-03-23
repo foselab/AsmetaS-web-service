@@ -1,5 +1,5 @@
-asm safePillboxForPaper
-import ../StandardLibrary
+asm safePillbox
+import ../libraries/StandardLibrary
 import pillbox_sanitiser
 
 signature:
@@ -23,6 +23,8 @@ signature:
 	out newTime: Compartment -> Natural //new pill time
 	out skipNextPill: Prod(Compartment,Compartment) -> Boolean //is next compartment skipped? It can be that more than one next compartments are skipped (current compartment, skip compartment)
 	out skipNextPill: Compartment -> Boolean //SafePillbox detected that pill taken with delay
+	out out_state: States 
+
 	
 	//Time management
 	// The systemTime is expressed as the number of hours passed since the 01/01/1970
@@ -49,10 +51,13 @@ definitions:
 				extend Medicine with $m do
 						id($m) := $s
 			state := NORMAL
+			out_state := NORMAL
 		endpar
-	
-	rule r_pillOnTime ($compartmnet in Compartment) =
-		if isPillMissed($compartment) then //M
+		
+	rule r_enforce = 
+	  forall $compartment in Compartment do 
+	  par
+	  	if isPillMissed($compartment) then //M
 	  	par
 	  	setNewTime ($compartment):= true
 			//Missed pill check if the new time causes invariant violation
@@ -73,9 +78,7 @@ definitions:
 			 endif
 		endpar
 		endif
-		
-	rule r_noOverlapping ($compartmnet in Compartment) =
-		if pillTakenWithDelay($compartment) then
+	 	if pillTakenWithDelay($compartment) then
 			//pill taken later compared the timecompartment
 			//for all next pills that cause invariant violation because the current has been taken after set time -> skip pill
 			forall $c2 in next($compartment) do 
@@ -90,13 +93,7 @@ definitions:
 					//skip next pill -> rule must be in pillbox
 				endif
 		endif
-	
-	rule r_enforce = 
-	  forall $compartment in Compartment do 
-	  par
-		  r_pillOnTime[$compartment]
-		  r_noOverlapping[$compartment]
-	  endpar
+		endpar
 	
 	//Reset all skipPill to false
 	rule r_resetMidnight =
@@ -131,6 +128,7 @@ definitions:
 default init s0:	//This init state is correct, it does not generate any invariant violation
 	//Controlled function that indicates the status of the system
 	function state = INIT
+	function out_state = INIT
 	
 		
 	/* Medicine knowledge initialization from an external prescription (e.g., a JSON file)*/

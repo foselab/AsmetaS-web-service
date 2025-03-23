@@ -1,6 +1,6 @@
 module prescriptionParameters_Knowledge
 
-import ../StandardLibrary
+import ../libraries/StandardLibrary
 export *
 
 signature:

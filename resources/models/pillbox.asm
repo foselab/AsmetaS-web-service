@@ -1,6 +1,6 @@
 asm pillbox
 
-import ../StandardLibrary
+import ../libraries/StandardLibrary
 
 // Fourth refinement level of the Pill Box. We further added the function actualConsTime to record the actual assumption time of pills 
 
@@ -81,7 +81,7 @@ definitions:
 	
 	//These two rules are required because
 	/*if redLed($compartment) = OFF then if (at(time_consumption($compartment),drugIndex($compartment))<systemTime) then r_pillToBeTaken[$compartment] endif endif
-quindi ogni volta controlla se il tempo della medicina è inferiore al systemTime e se è così dice che è da prendere... Però se ho medA = 100 e med B=200, a 100 prendo medA ma quando arrivo a 200 mi dice che devo prendere sia medA che medB */	
+quindi ogni volta controlla se il tempo della medicina   inferiore al systemTime e se   cos  dice che   da prendere... Per  se ho medA = 100 e med B=200, a 100 prendo medA ma quando arrivo a 200 mi dice che devo prendere sia medA che medB */	
 		
 	// Rule that implement the writing on the log file
 	rule r_writeToFile($compartment in Compartment) = skip
