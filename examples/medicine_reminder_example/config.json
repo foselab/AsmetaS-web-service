@@ -1,0 +1,12 @@
+{
+  "asmeta_server":{
+    "ip": "localhost",
+    "base_port": 8080,
+    "spec_path": "../../resources/models",
+    "runtime_model": "safePillbox.asm", 
+    "other_models" : ["prescriptionParameters_Knowledge.asm","pillbox_sanitiser.asm"]
+  },
+  "logging":{
+    "level": "INFO",
+    "target_folder": "log"}
+}
