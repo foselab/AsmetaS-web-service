@@ -18,13 +18,13 @@ pip install -r requirements.txt
 ## How to run
 
 ### Start the AsmetaS&#8203;@run.time server on port 8080
-In order to run the server it is necessary to have Java JRE 17 or higher and Python installed on your machine. 
+In order to run the server it is necessary to have docker installed and the docker-daemon on your machine.
 A Swagger UI allows to visualize and interact with the API: http://localhost:8080/swagger-ui/index.html
 
-To run the server, move to the `asmeta server` folder and run:
+To run the server, position in the main folder and run
 
 ```bash
-python asmeta_runtime_server.py
+docker-compose up --build
 ```
 
 ### Execute the code examples (client programs invoking the simulation service).
