@@ -1,0 +1,8 @@
+services:
+    asmeta-server:
+        build:
+            context: asmeta_server
+            dockerfile: Dockerfile
+        container_name: asmeta-server
+        ports:
+            - "8080:8080"

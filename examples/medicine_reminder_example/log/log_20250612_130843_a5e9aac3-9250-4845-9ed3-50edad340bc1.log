@@ -1,0 +1,17 @@
+2025-06-12 13:08:43,178 - root - INFO - Logging has been configured.
+2025-06-12 13:08:43,179 - __main__ - INFO - Loaded config.json - Starting execution with id a5e9aac3-9250-4845-9ed3-50edad340bc1
+2025-06-12 13:08:43,179 - configuration_manager - INFO - Configuration: 
+2025-06-12 13:08:43,180 - configuration_manager - INFO - * Runtime ASM model: safePillbox.asm
+2025-06-12 13:08:43,180 - model_uploader - INFO - Enforcer initialized with domain: http://localhost:8080/
+2025-06-12 13:08:43,180 - model_uploader - INFO - Runtime model: safePillbox.asm
+2025-06-12 13:08:43,181 - model_uploader - INFO - 
+2025-06-12 13:08:43,215 - model_uploader - INFO - Uploaded file: ../../resources/models\safePillbox.asm
+2025-06-12 13:08:43,226 - model_uploader - INFO - Uploaded file: ../../resources/models\prescriptionParameters_Knowledge.asm
+2025-06-12 13:08:43,264 - model_uploader - INFO - Uploaded file: ../../resources/models\pillbox_sanitiser.asm
+2025-06-12 13:08:43,290 - __main__ - INFO - --Starting new test run--
+2025-06-12 13:08:43,350 - enforcer - INFO - Execution started with ID: 4
+2025-06-12 13:08:43,350 - __main__ - INFO - Invoke the initialization step...
+2025-06-12 13:08:50,011 - __main__ - ERROR - Failed to connect to the server - Executing the test runs WITHOUT the model
+2025-06-12 13:08:50,011 - __main__ - INFO - --Starting new test run--
+2025-06-12 13:08:50,012 - __main__ - INFO - --Executing new step--
+2025-06-12 13:08:54,832 - __main__ - INFO - --Executing new step--

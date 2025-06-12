@@ -1,0 +1,12 @@
+2025-06-12 12:48:51,906 - root - INFO - Logging has been configured.
+2025-06-12 12:48:51,906 - __main__ - INFO - Loaded config.json - Starting execution with id 7bfe869c-a335-4e69-8395-49328c65ec39
+2025-06-12 12:48:51,906 - configuration_manager - INFO - Configuration: 
+2025-06-12 12:48:51,907 - configuration_manager - INFO - * Runtime ASM model: SafetyEnforcerModel.asm
+2025-06-12 12:48:51,907 - model_uploader - INFO - Model engine initialized with domain: http://asmeta-server:8080/
+2025-06-12 12:48:51,907 - model_uploader - INFO - Runtime model: SafetyEnforcerModel.asm
+2025-06-12 12:48:51,911 - model_uploader - INFO - 
+2025-06-12 12:48:54,597 - model_uploader - ERROR - HTTP Request failed: HTTPConnectionPool(host='asmeta-server', port=8080): Max retries exceeded with url: /upload-model (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000016AE904CC20>: Failed to resolve 'asmeta-server' ([Errno 11001] getaddrinfo failed)"))
+2025-06-12 12:48:54,597 - model_uploader - ERROR - Failed to upload model or library: HTTPConnectionPool(host='asmeta-server', port=8080): Max retries exceeded with url: /upload-model (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000016AE904CC20>: Failed to resolve 'asmeta-server' ([Errno 11001] getaddrinfo failed)"))
+2025-06-12 12:48:54,598 - __main__ - ERROR - Failed to connect to the server - Executing the test runs WITHOUT the model
+2025-06-12 12:48:54,598 - __main__ - INFO - --Starting new test run--
+2025-06-12 12:48:54,598 - __main__ - INFO - --Executing new step--

@@ -1,0 +1,30 @@
+2025-06-12 13:02:45,759 - root - INFO - Logging has been configured.
+2025-06-12 13:02:45,760 - __main__ - INFO - Loaded config.json - Starting execution with id 4198b91c-b7d6-4c41-af82-732284a05537
+2025-06-12 13:02:45,760 - configuration_manager - INFO - Configuration: 
+2025-06-12 13:02:45,760 - configuration_manager - INFO - * Runtime ASM model: SafetyEnforcerModel.asm
+2025-06-12 13:02:45,760 - model_uploader - INFO - Model engine initialized with domain: http://localhost:8080/
+2025-06-12 13:02:45,760 - model_uploader - INFO - Runtime model: SafetyEnforcerModel.asm
+2025-06-12 13:02:45,761 - model_uploader - INFO - 
+2025-06-12 13:02:45,816 - model_uploader - INFO - Uploaded file: ../../resources/models\SafetyEnforcerModel.asm
+2025-06-12 13:02:45,852 - __main__ - INFO - --Starting new test run--
+2025-06-12 13:02:45,880 - enforcer - INFO - Execution started with ID: 2
+2025-06-12 13:02:45,880 - __main__ - INFO - --Executing new step--
+2025-06-12 13:03:18,955 - enforcer - INFO - ASM step performed for ID 2 with delay 42.78 ms
+2025-06-12 13:03:18,955 - enforcer - INFO - Enforcer not applied - keeping input action
+2025-06-12 13:03:18,955 - enforcer - INFO - System Output: FASTER
+2025-06-12 13:03:18,955 - __main__ - INFO - Action: FASTER
+2025-06-12 13:03:45,050 - __main__ - INFO - --Executing new step--
+2025-06-12 13:03:56,918 - enforcer - INFO - ASM step performed for ID 2 with delay 48.86 ms
+2025-06-12 13:03:56,918 - enforcer - INFO - Enforcer applied - changing action
+2025-06-12 13:03:56,918 - enforcer - INFO - System Output: SLOWER
+2025-06-12 13:03:56,918 - enforcer - INFO - After Safety Enforcement: LANE_RIGHT
+2025-06-12 13:04:11,305 - __main__ - INFO - --Executing new step--
+2025-06-12 13:04:22,742 - enforcer - INFO - ASM step performed for ID 2 with delay 44.55 ms
+2025-06-12 13:04:22,742 - enforcer - INFO - Enforcer not applied - keeping input action
+2025-06-12 13:04:22,742 - enforcer - INFO - System Output: LANE_RIGHT
+2025-06-12 13:04:22,742 - __main__ - INFO - Action: LANE_RIGHT
+2025-06-12 13:05:46,943 - __main__ - INFO - --Executing new step--
+2025-06-12 13:06:00,729 - enforcer - INFO - ASM step performed for ID 2 with delay 58.45 ms
+2025-06-12 13:06:00,730 - enforcer - INFO - Enforcer not applied - keeping input action
+2025-06-12 13:06:00,730 - enforcer - INFO - System Output: LANE_LEFT
+2025-06-12 13:06:00,730 - __main__ - INFO - Action: LANE_LEFT
