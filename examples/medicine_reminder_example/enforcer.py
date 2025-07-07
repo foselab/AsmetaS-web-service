@@ -55,7 +55,7 @@ class PillboxEnforcer(RestClient):
                 return None
             else:
                 self.logger.info("Initialization done!")
-                return response.json()["runOutput"]["outvalues"]["out_state"]
+                return response.json()["runOutput"]["outvalues"]["out_state"] //Your out location (e.g., "out_state") from your ASM model goes here
         except Exception as e:
             self.logger.error("ASM step execution failed: %s", e)
             raise    
@@ -77,17 +77,17 @@ class PillboxEnforcer(RestClient):
             delay = (time.perf_counter() - start_time) * 1000
             self.logger.info(f"ASM step performed for ID {self.exec_id} with delay {delay:.2f} ms")
             # Check if dictionary of out locations is empty
-            enforced_actions = response.json()["runOutput"]["outvalues"]
+            enforced_actions = response.json()["runOutput"]["outvalues"] //all out locations of the ASM are collected
             if not enforced_actions: # outAction not set (should never happen)
-                self.logger.error("The ASM returned no outAction but should always return something")
+                self.logger.error("The ASM returned no outAction but should always return something.")
                 return None
             self.logger.info(f"ASM output: {enforced_actions}")
             if len(enforced_actions) <= 1:
                 self.logger.info("Enforcement not applied.")
                 return None
             else:
-                self.logger.info("Enforcement applied - changing action")
-            return enforced_actions
+                self.logger.info("Enforcement applied - changing action.")
+            return enforced_actions //retruns all out locations
         except Exception as e:
             self.logger.error("ASM step execution failed: %s", e)
             raise    
