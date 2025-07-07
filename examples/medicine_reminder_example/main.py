@@ -7,7 +7,7 @@ import os
 import sys
 import uuid
 import time
-# Aggiunge la directory padre al sys.path
+# Add the parent directory to the sys.path
 #sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import logging_manager
