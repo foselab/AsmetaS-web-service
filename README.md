@@ -64,11 +64,27 @@ For example, assuming a local server is running the AsmetaS&#8203;@run.time simu
 }
 ```
 
-If the user is trying to reach the asmeta-server container from another container on the same docker network, use this 
+* If the user is trying to reach the asmeta-server container from another container on the same docker network, use this 
 instead of 'localhost' in the ip field:
+
 ```json
 {
 "ip": "container-name"
 }
 ```
+
 Remember to change the placeholder with the correct container's name.
+Here is a complete example of the config.json file if the client is run inside a container:
+
+```json
+{
+  "asmeta_server":{
+    "ip": "asmeta-server",
+    "base_port": 8080,
+    "spec_path": "../../resources/models",
+    "runtime_model": "SafetyEnforcerModel.asm"},
+  "logging":{
+    "level": "INFO",
+    "target_folder": "log"}
+}
+```
