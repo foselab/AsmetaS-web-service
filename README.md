@@ -64,3 +64,11 @@ For example, assuming a local server is running the AsmetaS&#8203;@run.time simu
 }
 ```
 
+If the user is trying to reach the asmeta-server container from another container on the same docker network, use this 
+instead of 'localhost' in the ip field:
+```json
+{
+"ip": "container-name"
+}
+```
+Remember to change the placeholder with the correct container's name.
