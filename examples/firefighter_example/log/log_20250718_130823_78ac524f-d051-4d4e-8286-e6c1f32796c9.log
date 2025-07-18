@@ -1,0 +1,23 @@
+2025-07-18 13:08:23,297 - root - INFO - Logging has been configured.
+2025-07-18 13:08:23,298 - __main__ - INFO - Loaded config.json - Starting execution with id 78ac524f-d051-4d4e-8286-e6c1f32796c9
+2025-07-18 13:08:23,298 - configuration_manager - INFO - Configuration: 
+2025-07-18 13:08:23,298 - configuration_manager - INFO - * Runtime ASM model: firefighter.asm
+2025-07-18 13:08:23,298 - model_uploader - INFO - Enforcer initialized with domain: http://localhost:8080/
+2025-07-18 13:08:23,298 - model_uploader - INFO - Runtime model: firefighter.asm
+2025-07-18 13:08:23,299 - model_uploader - INFO - 
+2025-07-18 13:08:23,315 - model_uploader - INFO - Uploaded file: ../../resources/models\firefighter.asm
+2025-07-18 13:08:23,347 - model_uploader - INFO - Uploaded file: ../../resources/models\firefighterHeader.asm
+2025-07-18 13:08:23,412 - model_uploader - INFO - Uploaded file: ../../resources/models\..\libraries\StandardLibrary.asm
+2025-07-18 13:08:23,427 - model_uploader - INFO - Uploaded file: ../../resources/models\..\libraries\SLEECLibrary.asm
+2025-07-18 13:08:23,428 - __main__ - INFO - --Starting new test run--
+2025-07-18 13:08:23,495 - enforcer - INFO - Execution started with ID: 2
+2025-07-18 13:08:23,496 - __main__ - INFO - --Executing new step--
+2025-07-18 13:08:44,942 - enforcer - INFO - ASM step performed for ID 2 with delay 216.51 ms
+2025-07-18 13:08:44,942 - enforcer - ERROR - ASM step execution failed: 'outConstraint(outObligation)'
+2025-07-18 13:08:44,943 - __main__ - ERROR - Failed to connect to the server - Executing the test runs WITHOUT the model
+2025-07-18 13:08:44,943 - __main__ - INFO - --Starting new test run--
+2025-07-18 13:08:44,943 - __main__ - INFO - --Executing new step--
+2025-07-18 13:12:03,593 - __main__ - INFO - --Executing new step--
+2025-07-18 13:12:05,567 - __main__ - INFO - Test run completed in 200623.51ms:
+2025-07-18 13:12:05,567 - __main__ - INFO - * Model simulation steps: 0
+2025-07-18 13:12:05,568 - __main__ - INFO - 

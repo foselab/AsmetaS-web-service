@@ -1,0 +1,33 @@
+2025-07-18 13:03:42,305 - root - INFO - Logging has been configured.
+2025-07-18 13:03:42,306 - __main__ - INFO - Loaded config.json - Starting execution with id 97ef4996-8e3f-43cd-a49d-3f8f9c29eb88
+2025-07-18 13:03:42,306 - configuration_manager - INFO - Configuration: 
+2025-07-18 13:03:42,306 - configuration_manager - INFO - * Runtime ASM model: firefighter.asm
+2025-07-18 13:03:42,307 - model_uploader - INFO - Enforcer initialized with domain: http://localhost:8080/
+2025-07-18 13:03:42,307 - model_uploader - INFO - Runtime model: firefighter.asm
+2025-07-18 13:03:42,309 - model_uploader - INFO - 
+2025-07-18 13:03:42,328 - model_uploader - INFO - Uploaded file: ../../resources/models\firefighter.asm
+2025-07-18 13:03:42,352 - model_uploader - INFO - Uploaded file: ../../resources/models\firefighterHeader.asm
+2025-07-18 13:03:42,386 - model_uploader - INFO - Uploaded file: ../../resources/models\..\libraries\StandardLibrary.asm
+2025-07-18 13:03:42,398 - model_uploader - INFO - Uploaded file: ../../resources/models\..\libraries\SLEECLibrary.asm
+2025-07-18 13:03:42,398 - __main__ - INFO - --Starting new test run--
+2025-07-18 13:03:42,455 - enforcer - INFO - Execution started with ID: 2
+2025-07-18 13:03:42,456 - __main__ - INFO - --Executing new step--
+2025-07-18 13:03:45,257 - enforcer - INFO - ASM step performed for ID 2 with delay 101.72 ms
+2025-07-18 13:03:45,257 - enforcer - INFO - ASM output: {'outConstraint(SOUNDALARM)': '(undef,undef,undef,undef)', 'outObligation': 'GOHOME', 'outConstraint(GOHOME)': '(WITHIN,1,MIN,DONOTHING)', 'outConstraint(DONOTHING)': '(undef,undef,undef,undef)'}
+2025-07-18 13:03:45,257 - enforcer - INFO - Enforcement applied - changing action.
+2025-07-18 13:03:57,842 - __main__ - INFO - --Executing new step--
+2025-07-18 13:04:10,599 - enforcer - INFO - ASM step performed for ID 2 with delay 103.31 ms
+2025-07-18 13:04:10,599 - enforcer - INFO - ASM output: {'outConstraint(SOUNDALARM)': '(undef,undef,undef,undef)', 'outObligation': 'undef', 'outConstraint(GOHOME)': '(undef,undef,undef,undef)', 'outConstraint(DONOTHING)': '(undef,undef,undef,undef)'}
+2025-07-18 13:04:10,599 - enforcer - INFO - Enforcement not applied.
+2025-07-18 13:04:23,867 - enforcer - INFO - Execution stopped for ID: 2
+2025-07-18 13:04:23,867 - __main__ - INFO - Enforcer delays:
+2025-07-18 13:04:23,867 - __main__ - INFO - * Start delay: 57.76ms
+2025-07-18 13:04:23,867 - __main__ - INFO - * Total sanitisation delay: 206.95ms (max 104.27ms)
+2025-07-18 13:04:23,867 - __main__ - INFO - * Stop delay: 28.70ms
+2025-07-18 13:04:23,868 - __main__ - INFO - Number of enforcer interventions: 1 (out of 2)
+2025-07-18 13:04:23,868 - __main__ - INFO - Test run completed in 41469.53ms:
+2025-07-18 13:04:23,868 - __main__ - INFO - * Model simulation steps: 2
+2025-07-18 13:04:23,868 - __main__ - INFO - 
+2025-07-18 13:04:23,898 - model_uploader - INFO - Model deleted: firefighter.asm
+2025-07-18 13:04:23,929 - __main__ - INFO - Upload model delay: 88.48ms
+2025-07-18 13:04:23,930 - __main__ - INFO - Delete model delay: 61.14ms

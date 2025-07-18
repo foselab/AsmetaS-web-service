@@ -1,0 +1,29 @@
+2025-07-18 13:06:30,805 - root - INFO - Logging has been configured.
+2025-07-18 13:06:30,806 - __main__ - INFO - Loaded config.json - Starting execution with id 59aac4e1-1aef-4aa2-ad9b-cb6a801c8598
+2025-07-18 13:06:30,806 - configuration_manager - INFO - Configuration: 
+2025-07-18 13:06:30,806 - configuration_manager - INFO - * Runtime ASM model: firefighter.asm
+2025-07-18 13:06:30,806 - model_uploader - INFO - Enforcer initialized with domain: http://localhost:8080/
+2025-07-18 13:06:30,807 - model_uploader - INFO - Runtime model: firefighter.asm
+2025-07-18 13:06:30,809 - model_uploader - INFO - 
+2025-07-18 13:06:30,823 - model_uploader - INFO - Uploaded file: ../../resources/models\firefighter.asm
+2025-07-18 13:06:30,843 - model_uploader - INFO - Uploaded file: ../../resources/models\firefighterHeader.asm
+2025-07-18 13:06:30,877 - model_uploader - INFO - Uploaded file: ../../resources/models\..\libraries\StandardLibrary.asm
+2025-07-18 13:06:30,910 - model_uploader - INFO - Uploaded file: ../../resources/models\..\libraries\SLEECLibrary.asm
+2025-07-18 13:06:30,911 - __main__ - INFO - --Starting new test run--
+2025-07-18 13:06:30,965 - enforcer - INFO - Execution started with ID: 2
+2025-07-18 13:06:30,966 - __main__ - INFO - --Executing new step--
+2025-07-18 13:06:38,412 - enforcer - INFO - ASM step performed for ID 2 with delay 99.96 ms
+2025-07-18 13:06:38,412 - enforcer - INFO - ASM output: GOHOME
+2025-07-18 13:06:38,412 - enforcer - INFO - Enforcement applied - changing action.
+2025-07-18 13:06:56,291 - enforcer - INFO - Execution stopped for ID: 2
+2025-07-18 13:06:56,291 - __main__ - INFO - Enforcer delays:
+2025-07-18 13:06:56,292 - __main__ - INFO - * Start delay: 54.30ms
+2025-07-18 13:06:56,292 - __main__ - INFO - * Total sanitisation delay: 100.70ms (max 100.70ms)
+2025-07-18 13:06:56,293 - __main__ - INFO - * Stop delay: 22.69ms
+2025-07-18 13:06:56,294 - __main__ - INFO - Number of enforcer interventions: 1 (out of 1)
+2025-07-18 13:06:56,294 - __main__ - INFO - Test run completed in 25382.73ms:
+2025-07-18 13:06:56,295 - __main__ - INFO - * Model simulation steps: 1
+2025-07-18 13:06:56,295 - __main__ - INFO - 
+2025-07-18 13:06:56,306 - model_uploader - INFO - Model deleted: firefighter.asm
+2025-07-18 13:06:56,371 - __main__ - INFO - Upload model delay: 100.89ms
+2025-07-18 13:06:56,371 - __main__ - INFO - Delete model delay: 74.78ms

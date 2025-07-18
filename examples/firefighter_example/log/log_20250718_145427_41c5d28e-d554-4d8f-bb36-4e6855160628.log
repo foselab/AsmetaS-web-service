@@ -1,0 +1,35 @@
+2025-07-18 14:54:27,788 - root - INFO - Logging has been configured.
+2025-07-18 14:54:27,789 - __main__ - INFO - Loaded config.json - Starting execution with id 41c5d28e-d554-4d8f-bb36-4e6855160628
+2025-07-18 14:54:27,789 - configuration_manager - INFO - Configuration: 
+2025-07-18 14:54:27,789 - configuration_manager - INFO - * Runtime ASM model: firefighter.asm
+2025-07-18 14:54:27,790 - model_uploader - INFO - Enforcer initialized with domain: http://localhost:8080/
+2025-07-18 14:54:27,790 - model_uploader - INFO - Runtime model: firefighter.asm
+2025-07-18 14:54:27,793 - model_uploader - INFO - 
+2025-07-18 14:54:27,813 - model_uploader - INFO - Uploaded file: ../../resources/models\firefighter.asm
+2025-07-18 14:54:27,833 - model_uploader - INFO - Uploaded file: ../../resources/models\firefighterHeader.asm
+2025-07-18 14:54:27,862 - __main__ - INFO - --Starting new test run--
+2025-07-18 14:54:27,931 - enforcer - INFO - Execution started with ID: 4
+2025-07-18 14:54:27,932 - __main__ - INFO - --Executing new step--
+2025-07-18 14:54:54,285 - enforcer - INFO - ASM step performed for ID 4 with delay 198.67 ms
+2025-07-18 14:54:54,286 - enforcer - INFO - Enforcement applied - changing action.
+2025-07-18 14:54:54,286 - enforcer - INFO - ASM output: GOHOME (WITHIN,1,MIN,DONOTHING)
+2025-07-18 14:54:57,743 - __main__ - INFO - --Executing new step--
+2025-07-18 14:55:02,384 - enforcer - INFO - ASM step performed for ID 4 with delay 96.73 ms
+2025-07-18 14:55:02,385 - enforcer - INFO - Enforcement applied - changing action.
+2025-07-18 14:55:02,385 - enforcer - INFO - ASM output: GOHOME (AFTER,5,MIN,DONOTHING)
+2025-07-18 14:55:05,896 - __main__ - INFO - --Executing new step--
+2025-07-18 14:55:19,298 - enforcer - INFO - ASM step performed for ID 4 with delay 86.36 ms
+2025-07-18 14:55:19,299 - enforcer - INFO - Enforcement not applied.
+2025-07-18 14:55:19,299 - enforcer - INFO - ASM output: undef
+2025-07-18 14:55:41,614 - enforcer - INFO - Execution stopped for ID: 4
+2025-07-18 14:55:41,615 - __main__ - INFO - Enforcer delays:
+2025-07-18 14:55:41,615 - __main__ - INFO - * Start delay: 69.14ms
+2025-07-18 14:55:41,616 - __main__ - INFO - * Total sanitisation delay: 385.50ms (max 200.51ms)
+2025-07-18 14:55:41,616 - __main__ - INFO - * Stop delay: 19.86ms
+2025-07-18 14:55:41,617 - __main__ - INFO - Number of enforcer interventions: 2 (out of 3)
+2025-07-18 14:55:41,617 - __main__ - INFO - Test run completed in 73754.65ms:
+2025-07-18 14:55:41,618 - __main__ - INFO - * Model simulation steps: 3
+2025-07-18 14:55:41,619 - __main__ - INFO - 
+2025-07-18 14:55:41,647 - model_uploader - INFO - Model deleted: firefighter.asm
+2025-07-18 14:55:41,695 - __main__ - INFO - Upload model delay: 69.32ms
+2025-07-18 14:55:41,696 - __main__ - INFO - Delete model delay: 75.64ms
